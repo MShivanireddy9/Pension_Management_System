@@ -1,0 +1,714 @@
+2022-03-22 12:59:17.480  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-03-22 12:59:18.954  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 12:59:18.997  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 JPA repository interfaces.
+2022-03-22 12:59:19.442  INFO 24680 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=35ea37a0-dc2a-319a-9ff8-f382d7e1326d
+2022-03-22 12:59:20.772  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-03-22 12:59:20.790  INFO 24680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 12:59:20.790  INFO 24680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-03-22 12:59:21.033  INFO 24680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 12:59:21.033  INFO 24680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3508 ms
+2022-03-22 12:59:21.138  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-22 12:59:21.479  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 12:59:21.490  INFO 24680 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f8234d42-0fef-4044-9c3d-7e256e4208bc'
+2022-03-22 12:59:21.873  INFO 24680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-22 12:59:21.968  INFO 24680 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-03-22 12:59:22.217  INFO 24680 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-22 12:59:22.443  INFO 24680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-22 12:59:22.799  INFO 24680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-22 12:59:22.814  INFO 24680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 12:59:22.868  INFO 24680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 12:59:23.111  WARN 24680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-22 12:59:23.991  INFO 24680 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-22 12:59:24.040  WARN 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-22 12:59:24.040  INFO 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-22 12:59:24.061  WARN 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-22 12:59:24.061  INFO 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-22 12:59:24.339  INFO 24680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-22 12:59:25.315  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-03-22 12:59:25.736  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-22 12:59:25.757  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-22 12:59:25.810  INFO 24680 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-22 12:59:26.064  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 10.951 seconds (JVM running for 12.182)
+2022-03-22 12:59:32.997  INFO 24680 --- [http-nio-9292-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-22 12:59:32.998  INFO 24680 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-22 12:59:33.023  INFO 24680 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2022-03-22 12:59:33.662  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 12:59:33.663 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 12:59:33.664  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 12:59:33.664 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 12:59:34.657 DEBUG 24680 --- [HystrixTimer-1] c.c.p.c.PensionDisbursementController    : Pensioner-Detail MS is down!! Fallback route enabled. Time: Tue Mar 22 12:59:34 IST 2022
+2022-03-22 12:59:34.658 DEBUG 24680 --- [HystrixTimer-1] c.c.p.c.PensionDisbursementController    : returned status: Pensioner Detail micro service down, Please try again later
+2022-03-22 12:59:45.558  INFO 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 12:59:45.560 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 12:59:45.560  INFO 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 12:59:45.561 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 12:59:46.572 DEBUG 24680 --- [HystrixTimer-1] c.c.p.c.PensionDisbursementController    : Pensioner-Detail MS is down!! Fallback route enabled. Time: Tue Mar 22 12:59:46 IST 2022
+2022-03-22 12:59:46.574 DEBUG 24680 --- [HystrixTimer-1] c.c.p.c.PensionDisbursementController    : returned status: Pensioner Detail micro service down, Please try again later
+2022-03-22 13:01:10.782  WARN 24680 --- [http-nio-9292-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Double com.cognizant.pensiondisbursement.controller.PensionDisbursementController.bankServiceCharge(java.lang.String)]
+2022-03-22 13:04:27.045  INFO 24680 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-22 13:04:27.076  INFO 24680 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 13:04:27.078  INFO 24680 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-22 13:04:27.326  WARN 24680 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 13:04:27.327  INFO 24680 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-22 13:04:27.335  INFO 24680 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-22 13:04:28.745  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-03-22 13:04:29.777  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 13:04:29.786  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2022-03-22 13:04:29.941  INFO 24680 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=35ea37a0-dc2a-319a-9ff8-f382d7e1326d
+2022-03-22 13:04:30.243  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-03-22 13:04:30.245  INFO 24680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 13:04:30.245  INFO 24680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-03-22 13:04:30.352  INFO 24680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 13:04:30.355  INFO 24680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1599 ms
+2022-03-22 13:04:30.426  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-03-22 13:04:30.428  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-03-22 13:04:30.429  INFO 24680 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:fba1a573-0da6-4413-b0b8-80f2a764a636'
+2022-03-22 13:04:30.561  INFO 24680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-22 13:04:30.581  INFO 24680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-22 13:04:30.612  INFO 24680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-22 13:04:30.614  INFO 24680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 13:04:30.654  INFO 24680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 13:04:30.810  WARN 24680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-22 13:04:31.348  INFO 24680 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-22 13:04:31.374  WARN 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-22 13:04:31.374  INFO 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-22 13:04:31.530  INFO 24680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-22 13:04:32.488  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-03-22 13:04:33.191  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-22 13:04:33.193  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-22 13:04:33.198  INFO 24680 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-22 13:04:33.229  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 5.804 seconds (JVM running for 319.349)
+2022-03-22 13:04:33.234  INFO 24680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-22 13:04:43.973  INFO 24680 --- [http-nio-9292-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-22 13:04:43.973  INFO 24680 --- [http-nio-9292-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-22 13:04:43.987  INFO 24680 --- [http-nio-9292-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2022-03-22 13:04:44.026  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 13:04:44.033 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 13:04:44.035  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 13:04:44.036 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 13:04:45.026 DEBUG 24680 --- [HystrixTimer-1] c.c.p.c.PensionDisbursementController    : Pensioner-Detail MS is down!! Fallback route enabled. Time: Tue Mar 22 13:04:45 IST 2022
+2022-03-22 13:04:45.027 DEBUG 24680 --- [HystrixTimer-1] c.c.p.c.PensionDisbursementController    : returned status: Pensioner Detail micro service down, Please try again later
+2022-03-22 13:06:37.754  INFO 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 13:06:37.756 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 13:06:37.757  INFO 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 13:06:37.758 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 13:06:38.238 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : Pensioner-Detail MS is down!! Fallback route enabled. Time: Tue Mar 22 13:06:38 IST 2022
+2022-03-22 13:06:38.238 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : returned status: Pensioner Detail micro service down, Please try again later
+2022-03-22 13:10:51.877  INFO 24680 --- [Thread-11] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-22 13:10:51.880  INFO 24680 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 13:10:51.880  INFO 24680 --- [Thread-11] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-22 13:10:52.084  WARN 24680 --- [Thread-11] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 13:10:52.085  INFO 24680 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-03-22 13:10:52.089  INFO 24680 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-03-22 13:10:53.384  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-03-22 13:10:54.242  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 13:10:54.248  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 JPA repository interfaces.
+2022-03-22 13:10:54.446  INFO 24680 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=35ea37a0-dc2a-319a-9ff8-f382d7e1326d
+2022-03-22 13:10:54.683  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-03-22 13:10:54.691  INFO 24680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 13:10:54.691  INFO 24680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-03-22 13:10:54.777  INFO 24680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 13:10:54.778  INFO 24680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1387 ms
+2022-03-22 13:10:54.832  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-03-22 13:10:54.842  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-03-22 13:10:54.842  INFO 24680 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:58bf879c-2a1a-4f09-b7a3-fd7485e547b4'
+2022-03-22 13:10:54.927  INFO 24680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-22 13:10:54.946  INFO 24680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-22 13:10:54.973  INFO 24680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-22 13:10:54.973  INFO 24680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 13:10:54.995  INFO 24680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 13:10:55.082  WARN 24680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-22 13:10:55.496  INFO 24680 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-22 13:10:55.519  WARN 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-22 13:10:55.520  INFO 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-22 13:10:55.648  INFO 24680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-22 13:10:56.383  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-03-22 13:10:56.817  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-22 13:10:56.819  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-22 13:10:56.826  INFO 24680 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-22 13:10:56.850  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 4.679 seconds (JVM running for 702.969)
+2022-03-22 13:10:56.852  INFO 24680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-22 13:11:15.757  INFO 24680 --- [http-nio-9292-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-22 13:11:15.758  INFO 24680 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-22 13:11:15.765  INFO 24680 --- [http-nio-9292-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2022-03-22 13:11:15.795  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 13:11:15.796 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 13:11:15.797  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 13:11:15.798 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 13:11:15.887 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 13:11:15.888 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 13:11:15.888 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 13:11:15.888 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 13:11:15.888  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 13:12:19.434  WARN 24680 --- [http-nio-9292-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Double com.cognizant.pensiondisbursement.controller.PensionDisbursementController.bankServiceCharge(java.lang.String)]
+2022-03-22 13:17:28.404  WARN 24680 --- [http-nio-9292-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.Double com.cognizant.pensiondisbursement.controller.PensionDisbursementController.bankServiceCharge(java.lang.String)]
+2022-03-22 13:19:00.244  INFO 24680 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 13:19:00.245 DEBUG 24680 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 13:19:00.246  INFO 24680 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 13:19:00.246 DEBUG 24680 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 13:19:00.246  INFO 24680 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 13:19:00.246  INFO 24680 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 13:19:09.682  INFO 24680 --- [http-nio-9292-exec-10] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 13:19:09.683 DEBUG 24680 --- [http-nio-9292-exec-10] c.c.p.c.PensionDisbursementController    : private
+2022-03-22 13:19:09.683  INFO 24680 --- [http-nio-9292-exec-10] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 13:19:09.683 DEBUG 24680 --- [http-nio-9292-exec-10] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 550.0
+2022-03-22 13:19:09.683  INFO 24680 --- [http-nio-9292-exec-10] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 13:19:09.684  INFO 24680 --- [http-nio-9292-exec-10] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 13:19:14.174  INFO 24680 --- [http-nio-9292-exec-1] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 13:19:14.174 DEBUG 24680 --- [http-nio-9292-exec-1] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 13:19:14.174  INFO 24680 --- [http-nio-9292-exec-1] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 13:19:14.174 DEBUG 24680 --- [http-nio-9292-exec-1] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 13:19:14.174  INFO 24680 --- [http-nio-9292-exec-1] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 13:19:14.174  INFO 24680 --- [http-nio-9292-exec-1] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 13:26:14.673  INFO 24680 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-22 13:26:14.676  INFO 24680 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 13:26:14.677  INFO 24680 --- [Thread-20] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-03-22 13:26:14.892  WARN 24680 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 13:26:14.893  INFO 24680 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-03-22 13:26:14.895  INFO 24680 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-03-22 13:26:15.900  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-03-22 13:26:16.437  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 13:26:16.441  INFO 24680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2022-03-22 13:26:16.539  INFO 24680 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=35ea37a0-dc2a-319a-9ff8-f382d7e1326d
+2022-03-22 13:26:16.680  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-03-22 13:26:16.681  INFO 24680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 13:26:16.681  INFO 24680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-03-22 13:26:16.739  INFO 24680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 13:26:16.739  INFO 24680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 835 ms
+2022-03-22 13:26:16.765  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-03-22 13:26:16.770  INFO 24680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-03-22 13:26:16.770  INFO 24680 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:30a834ea-667f-4ee7-9dab-06515c0bf11f'
+2022-03-22 13:26:16.812  INFO 24680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-22 13:26:16.821  INFO 24680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-22 13:26:16.831  INFO 24680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-22 13:26:16.831  INFO 24680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 13:26:16.843  INFO 24680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-22 13:26:16.892  WARN 24680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-22 13:26:17.121  INFO 24680 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-22 13:26:17.131  WARN 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-22 13:26:17.131  INFO 24680 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-22 13:26:17.224  INFO 24680 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-22 13:26:17.977  INFO 24680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-03-22 13:26:18.716  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-22 13:26:18.717  INFO 24680 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-22 13:26:18.725  INFO 24680 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-22 13:26:18.763  INFO 24680 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 3.805 seconds (JVM running for 1624.882)
+2022-03-22 13:26:18.767  INFO 24680 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-22 13:26:24.195  INFO 24680 --- [http-nio-9292-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-22 13:26:24.196  INFO 24680 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-22 13:26:24.200  INFO 24680 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-03-22 13:26:24.216  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 13:26:24.217 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 13:26:24.218  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 13:26:24.218 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 13:26:24.237 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 13:26:24.237 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 13:26:24.237 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 13:26:24.237 DEBUG 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 13:26:24.237  INFO 24680 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 13:26:27.783  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 13:26:27.784 DEBUG 24680 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : private
+2022-03-22 13:26:27.784  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 13:26:27.784 DEBUG 24680 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 550.0
+2022-03-22 13:26:27.785  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 13:26:27.785  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 17:48:01.317  INFO 24680 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 17:48:01.322 DEBUG 24680 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 17:48:01.322  INFO 24680 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 17:48:01.327 DEBUG 24680 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 17:48:01.327  INFO 24680 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 17:48:01.327  INFO 24680 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 17:50:44.336  INFO 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 17:50:44.337 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 17:50:44.337  INFO 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 17:50:44.338 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 17:50:44.379 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 17:50:44.380 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 17:50:44.380 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 17:50:44.380 DEBUG 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 17:50:44.381  INFO 24680 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 17:51:38.908  INFO 24680 --- [http-nio-9292-exec-8] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 17:51:38.909 DEBUG 24680 --- [http-nio-9292-exec-8] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 17:51:38.909  INFO 24680 --- [http-nio-9292-exec-8] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 17:51:38.909 DEBUG 24680 --- [http-nio-9292-exec-8] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 17:51:38.909  INFO 24680 --- [http-nio-9292-exec-8] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 17:51:38.909  INFO 24680 --- [http-nio-9292-exec-8] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 17:51:42.430  INFO 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 17:51:42.431 DEBUG 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 17:51:42.431  INFO 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 17:51:42.431 DEBUG 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 17:51:42.445 DEBUG 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 17:51:42.446 DEBUG 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 17:51:42.446 DEBUG 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 17:51:42.446 DEBUG 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 17:51:42.446  INFO 24680 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 17:57:45.621  INFO 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 17:57:45.621 DEBUG 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 17:57:45.623  INFO 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 17:57:45.623 DEBUG 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 17:57:45.640 DEBUG 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 17:57:45.640 DEBUG 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 17:57:45.640 DEBUG 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 17:57:45.641 DEBUG 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 17:57:45.641  INFO 24680 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 17:57:49.022  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 17:57:49.023 DEBUG 24680 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : private
+2022-03-22 17:57:49.023  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 17:57:49.025 DEBUG 24680 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 550.0
+2022-03-22 17:57:49.025  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 17:57:49.025  INFO 24680 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 17:57:57.995  INFO 24680 --- [http-nio-9292-exec-4] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 17:57:57.996 DEBUG 24680 --- [http-nio-9292-exec-4] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 17:57:57.997  INFO 24680 --- [http-nio-9292-exec-4] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 17:57:57.997 DEBUG 24680 --- [http-nio-9292-exec-4] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 17:57:57.997  INFO 24680 --- [http-nio-9292-exec-4] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 17:57:57.997  INFO 24680 --- [http-nio-9292-exec-4] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 17:58:02.302  INFO 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 17:58:02.303 DEBUG 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 17:58:02.303  INFO 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 17:58:02.303 DEBUG 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 17:58:02.315 DEBUG 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 17:58:02.316 DEBUG 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 17:58:02.316 DEBUG 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 17:58:02.316 DEBUG 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 17:58:02.316  INFO 24680 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 18:02:47.659  INFO 6568 --- [restartedMain] nsionDisbursementMicroserviceApplication : No active profile set, falling back to default profiles: default
+2022-03-22 18:02:50.254  INFO 6568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 18:02:50.331  INFO 6568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51ms. Found 0 JPA repository interfaces.
+2022-03-22 18:02:51.133  INFO 6568 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c187ea9d-bf92-3f9b-8e21-276e7ea9fc94
+2022-03-22 18:02:53.726  INFO 6568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9292 (http)
+2022-03-22 18:02:53.764  INFO 6568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 18:02:53.766  INFO 6568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2022-03-22 18:02:54.221  INFO 6568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 18:02:54.222  INFO 6568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6477 ms
+2022-03-22 18:02:54.412  INFO 6568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-22 18:02:54.985  INFO 6568 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 18:02:55.008  INFO 6568 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:638abdf2-d188-4b16-bc10-bcaf05b259cd'
+2022-03-22 18:02:55.557  INFO 6568 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-22 18:02:55.750  INFO 6568 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2022-03-22 18:02:56.115  INFO 6568 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-22 18:02:56.829  INFO 6568 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-03-22 18:02:57.769  INFO 6568 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-22 18:02:57.808  INFO 6568 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 18:02:58.011  WARN 6568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-03-22 18:02:58.585  WARN 6568 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-22 18:03:00.384  INFO 6568 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-22 18:03:00.538  WARN 6568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-22 18:03:00.540  INFO 6568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-22 18:03:00.564  WARN 6568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-03-22 18:03:00.565  INFO 6568 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-22 18:03:01.185  INFO 6568 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-22 18:03:04.086  INFO 6568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9292 (http) with context path ''
+2022-03-22 18:03:05.439  INFO 6568 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-03-22 18:03:05.478  INFO 6568 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-03-22 18:03:05.568  INFO 6568 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-03-22 18:03:05.895  INFO 6568 --- [restartedMain] nsionDisbursementMicroserviceApplication : Started PensionDisbursementMicroserviceApplication in 22.745 seconds (JVM running for 24.723)
+2022-03-22 18:04:29.701  INFO 6568 --- [http-nio-9292-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-22 18:04:29.701  INFO 6568 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-22 18:04:29.730  INFO 6568 --- [http-nio-9292-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2022-03-22 18:04:30.812  INFO 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 18:04:30.814 DEBUG 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 18:04:30.816  INFO 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 18:04:30.817 DEBUG 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 18:04:31.577 DEBUG 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 18:04:31.578 DEBUG 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 18:04:31.579 DEBUG 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 18:04:31.580 DEBUG 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 18:04:31.581  INFO 6568 --- [hystrix-PensionDisbursementController-1] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 18:04:36.170  INFO 6568 --- [http-nio-9292-exec-2] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 18:04:36.171 DEBUG 6568 --- [http-nio-9292-exec-2] c.c.p.c.PensionDisbursementController    : private
+2022-03-22 18:04:36.171  INFO 6568 --- [http-nio-9292-exec-2] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 18:04:36.171 DEBUG 6568 --- [http-nio-9292-exec-2] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 550.0
+2022-03-22 18:04:36.171  INFO 6568 --- [http-nio-9292-exec-2] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 18:04:36.172  INFO 6568 --- [http-nio-9292-exec-2] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 18:04:44.283  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 18:04:44.285 DEBUG 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 18:04:44.285  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 18:04:44.286 DEBUG 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 18:04:44.287  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 18:04:44.287  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 18:04:47.080  INFO 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 18:04:47.081 DEBUG 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 18:04:47.081  INFO 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 18:04:47.082 DEBUG 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 18:04:47.097 DEBUG 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 18:04:47.098 DEBUG 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 18:04:47.099 DEBUG 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 18:04:47.099 DEBUG 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 18:04:47.099  INFO 6568 --- [hystrix-PensionDisbursementController-2] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 19:02:52.822  INFO 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 19:02:52.831 DEBUG 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 19:02:52.832  INFO 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 19:02:52.837 DEBUG 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 19:02:52.927 DEBUG 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 19:02:52.928 DEBUG 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 19:02:52.928 DEBUG 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 19:02:52.928 DEBUG 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 19:02:52.928  INFO 6568 --- [hystrix-PensionDisbursementController-3] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 19:02:55.842  INFO 6568 --- [http-nio-9292-exec-10] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:02:55.842 DEBUG 6568 --- [http-nio-9292-exec-10] c.c.p.c.PensionDisbursementController    : private
+2022-03-22 19:02:55.842  INFO 6568 --- [http-nio-9292-exec-10] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:02:55.843 DEBUG 6568 --- [http-nio-9292-exec-10] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 550.0
+2022-03-22 19:02:55.843  INFO 6568 --- [http-nio-9292-exec-10] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:02:55.843  INFO 6568 --- [http-nio-9292-exec-10] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:03:04.308  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:03:04.308 DEBUG 6568 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 19:03:04.308  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:03:04.310 DEBUG 6568 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 19:03:04.310  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:03:04.310  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:03:21.883  INFO 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 19:03:21.884 DEBUG 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 19:03:21.884  INFO 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 19:03:21.885 DEBUG 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 19:03:21.909 DEBUG 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 19:03:21.910 DEBUG 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 19:03:21.911 DEBUG 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 19:03:21.912 DEBUG 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 19:03:21.912  INFO 6568 --- [hystrix-PensionDisbursementController-4] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 19:33:21.954  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:33:21.955 DEBUG 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 19:33:21.955  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:33:21.956 DEBUG 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 19:33:21.956  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:33:21.956  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:45:53.351  INFO 6568 --- [http-nio-9292-exec-8] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:45:53.352 DEBUG 6568 --- [http-nio-9292-exec-8] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 19:45:53.353  INFO 6568 --- [http-nio-9292-exec-8] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:45:53.353 DEBUG 6568 --- [http-nio-9292-exec-8] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 19:45:53.354  INFO 6568 --- [http-nio-9292-exec-8] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:45:53.354  INFO 6568 --- [http-nio-9292-exec-8] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:46:15.244  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:46:15.245 DEBUG 6568 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 19:46:15.246  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:46:15.247 DEBUG 6568 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 19:46:15.247  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:46:15.247  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:47:31.981  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:47:31.982 DEBUG 6568 --- [http-nio-9292-exec-6] c.c.p.c.PensionDisbursementController    : private
+2022-03-22 19:47:31.983  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:47:31.983 DEBUG 6568 --- [http-nio-9292-exec-6] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 550.0
+2022-03-22 19:47:31.984  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:47:31.984  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:47:56.925  INFO 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 19:47:56.926 DEBUG 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : 123456789586 43450.0
+2022-03-22 19:47:56.926  INFO 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 19:47:56.927 DEBUG 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 123456789586
+2022-03-22 19:47:56.944 DEBUG 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 19:47:56.945 DEBUG 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 19:47:56.947 DEBUG 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 19:47:56.947 DEBUG 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 19:47:56.947  INFO 6568 --- [hystrix-PensionDisbursementController-5] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 19:51:19.416  INFO 6568 --- [http-nio-9292-exec-1] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:51:19.417 DEBUG 6568 --- [http-nio-9292-exec-1] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 19:51:19.417  INFO 6568 --- [http-nio-9292-exec-1] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:51:19.417 DEBUG 6568 --- [http-nio-9292-exec-1] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 19:51:19.417  INFO 6568 --- [http-nio-9292-exec-1] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:51:19.417  INFO 6568 --- [http-nio-9292-exec-1] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:53:12.212  INFO 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 19:53:12.213 DEBUG 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 19:53:12.213  INFO 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 19:53:12.214 DEBUG 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 19:53:12.278 DEBUG 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 19:53:12.280 DEBUG 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 19:53:12.280 DEBUG 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 19:53:12.281 DEBUG 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 19:53:12.281  INFO 6568 --- [hystrix-PensionDisbursementController-6] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 19:59:11.823  INFO 6568 --- [http-nio-9292-exec-4] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 19:59:11.824 DEBUG 6568 --- [http-nio-9292-exec-4] c.c.p.c.PensionDisbursementController    : private
+2022-03-22 19:59:11.825  INFO 6568 --- [http-nio-9292-exec-4] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 19:59:11.826 DEBUG 6568 --- [http-nio-9292-exec-4] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 550.0
+2022-03-22 19:59:11.826  INFO 6568 --- [http-nio-9292-exec-4] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 19:59:11.826  INFO 6568 --- [http-nio-9292-exec-4] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 19:59:22.411  INFO 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 19:59:22.412 DEBUG 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.c.PensionDisbursementController    : 123456789586 43450.0
+2022-03-22 19:59:22.413  INFO 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 19:59:22.413 DEBUG 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 123456789586
+2022-03-22 19:59:22.433 DEBUG 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 19:59:22.434 DEBUG 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 19:59:22.434 DEBUG 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 19:59:22.434 DEBUG 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 19:59:22.434  INFO 6568 --- [hystrix-PensionDisbursementController-7] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 20:07:52.775  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 20:07:52.776 DEBUG 6568 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 20:07:52.776  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 20:07:52.776 DEBUG 6568 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 20:07:52.776  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 20:07:52.776  INFO 6568 --- [http-nio-9292-exec-9] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 20:09:25.215  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 20:09:25.215 DEBUG 6568 --- [http-nio-9292-exec-6] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 20:09:25.216  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 20:09:25.216 DEBUG 6568 --- [http-nio-9292-exec-6] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 20:09:25.216  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 20:09:25.216  INFO 6568 --- [http-nio-9292-exec-6] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 20:09:37.318  INFO 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 20:09:37.318 DEBUG 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 20:09:37.318  INFO 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 20:09:37.319 DEBUG 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 20:09:37.327 DEBUG 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 20:09:37.327 DEBUG 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 20:09:37.327 DEBUG 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 20:09:37.328 DEBUG 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 20:09:37.328  INFO 6568 --- [hystrix-PensionDisbursementController-8] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 20:09:56.808  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 20:09:56.809 DEBUG 6568 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 20:09:56.809  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 20:09:56.809 DEBUG 6568 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 20:09:56.809  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 20:09:56.809  INFO 6568 --- [http-nio-9292-exec-3] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 20:10:03.273  INFO 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 20:10:03.274 DEBUG 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 20:10:03.274  INFO 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 20:10:03.274 DEBUG 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 20:10:03.283 DEBUG 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 20:10:03.283 DEBUG 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 20:10:03.283 DEBUG 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 20:10:03.283 DEBUG 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 20:10:03.284  INFO 6568 --- [hystrix-PensionDisbursementController-9] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 20:18:43.436  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : START :: Method :: bankServiceCharge() :: 
+2022-03-22 20:18:43.438 DEBUG 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : public
+2022-03-22 20:18:43.438  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: getBankCharge() :: 
+2022-03-22 20:18:43.439 DEBUG 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : service charge: 500.0
+2022-03-22 20:18:43.440  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.s.PensionDisbursementServiceImpl   : END :: Method :: getBankCharge() :: 
+2022-03-22 20:18:43.440  INFO 6568 --- [http-nio-9292-exec-5] c.c.p.c.PensionDisbursementController    : END :: Method :: bankServiceCharge() :: 
+2022-03-22 20:18:43.636  INFO 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.c.PensionDisbursementController    : START :: Method :: pensionDisbursement() :: 
+2022-03-22 20:18:43.636 DEBUG 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.c.PensionDisbursementController    : 509876450123 57500.0
+2022-03-22 20:18:43.636  INFO 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.s.PensionDisbursementServiceImpl   : START :: Method :: verifyData() :: 
+2022-03-22 20:18:43.636 DEBUG 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.s.PensionDisbursementServiceImpl   : Aadhar no: 509876450123
+2022-03-22 20:18:43.650 DEBUG 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.s.PensionDisbursementServiceImpl   : pension type: self
+2022-03-22 20:18:43.651 DEBUG 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.s.PensionDisbursementServiceImpl   : familypension amount calculation success
+2022-03-22 20:18:43.651 DEBUG 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.c.PensionDisbursementController    : returned status: Success
+2022-03-22 20:18:43.651 DEBUG 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.c.PensionDisbursementController    : set done: 10
+2022-03-22 20:18:43.651  INFO 6568 --- [hystrix-PensionDisbursementController-10] c.c.p.c.PensionDisbursementController    : END :: Method :: pensionDisbursement() :: 
+2022-03-22 20:26:49.552  INFO 6568 --- [RMI TCP Connection(146)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-22 20:26:49.593  INFO 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-22 20:26:49.596  INFO 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-03-22 20:26:49.601  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.602  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.603  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [RxComputationScheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.604  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.606  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.608  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.609  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.610  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.611  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.614  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.616  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.616  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.617  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.619  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.619  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.620  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.621  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.622  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HystrixTimer-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505)
+ java.base@15.0.1/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137)
+ java.base@15.0.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+ java.base@15.0.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.624  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.625  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.625  WARN 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [hystrix-PensionDisbursementController-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@15.0.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@15.0.1/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361)
+ java.base@15.0.1/java.util.concurrent.SynchronousQueue.take(SynchronousQueue.java:920)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116)
+ java.base@15.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+ java.base@15.0.1/java.lang.Thread.run(Thread.java:832)
+2022-03-22 20:26:49.635  INFO 6568 --- [RMI TCP Connection(146)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-22 20:26:49.649  INFO 6568 --- [RMI TCP Connection(146)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 20:26:49.651  INFO 6568 --- [RMI TCP Connection(146)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
